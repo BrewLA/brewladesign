@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-green-light: #E6FFED;
+    --primary-green-dark: #2C3E2F;
+    --primary-red-light: #FFF5F5;
+    --primary-red-dark: #2F2626;
+    --primary-blue-light: #F5FBFF;
+    --primary-blue-dark: #2A2E31;
+    --primary-purple-light: #F8F5FF;
+    --primary-purple-dark: #2E2A31;
+}
+
+/* Default (light mode) */
+:root {
+    --primary-green: var(--primary-green-light);
+    --primary-red: var(--primary-red-light);
+    --primary-blue: var(--primary-blue-light);
+    --primary-purple: var(--primary-purple-light);
+}
+
+body {
+    background-color: #1a1a1a;
+}
