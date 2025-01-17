@@ -17,14 +17,14 @@ export default function Navbar() {
 
     return (
         <nav className="flex flex-row justify-between w-full sticky top-5 max-w-desktop z-50">
-            <div className="flex flex-row gap-8 justify-center items-center px-2 rounded-2xl dark:bg-gray-900/80 bg-white/80 backdrop-blur-lg border border-gray-100 dark:border-gray-800">
+            <div className="flex flex-row gap-8 justify-center items-center px-2 rounded-2xl bg-gray-900/80 backdrop-blur-lg border border-gray-800">
                 <Link href="/">
                     <Image
                         src="/images/brand.svg"
                         width={48}
                         height={48}
                         alt="Home Link"
-                        className="invert-0 dark:invert"
+                        className="invert"
                     />
                 </Link>
                 <div className="flex flex-row items-center justify-center gap-6">
@@ -35,7 +35,7 @@ export default function Navbar() {
                     />
                 </div>
             </div>
-            <div className="flex flex-row gap-4 justify-center items-center pl-2 pr-6 py-2 dark:bg-gray-900/80 bg-white/80 backdrop-blur-lg border border-gray-100 dark:border-gray-800 rounded-2xl">
+            <div className="flex flex-row gap-4 justify-center items-center pl-2 pr-6 py-2 bg-gray-900/80 backdrop-blur-lg border border-gray-800 rounded-2xl">
                 <Dropdown
                     label='Contact'
                     options={dropdownContact}

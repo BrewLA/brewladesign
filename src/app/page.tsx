@@ -29,7 +29,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex w-full min-h-screen mx-auto flex-col items-center justify-between bg-white dark:bg-gray-900 text-black dark:text-white px-4">
+    <main className="flex w-full min-h-screen mx-auto flex-col items-center justify-between bg-gray-900 text-white px-4">
       <Navbar />
       <div className="max-w-desktop w-full py-10">
         {/* Main Hero */}
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-3 gap-6 w-full">
             <div className="bg-gray-800 rounded-3xl overflow-hidden">
-              <h3 className="p-8 text-gray-200 dark:text-gray-600">
+              <h3 className="p-8 text-gray-600">
                 Web Development Timeline
               </h3>
 
@@ -211,7 +211,7 @@ export default function Home() {
 
               <div className="p-8 flex flex-col gap-8 h-full">
                 <p className="text-[80px] text-right font-semibold">
-                  <span className="text-gray-300 dark:text-gray-500">~</span> 8 Weeks
+                  <span className="text-gray-500">~</span> 8 Weeks
                 </p>
                 <p className="text-right text-gray-400">
                   We take pride in getting your website designed and developed in a timely manner.
@@ -222,7 +222,7 @@ export default function Home() {
             <div className="flex flex-col gap-6">
               <div className="bg-gray-800 rounded-3xl h-full">
                 <div className="p-8 flex flex-col gap-8 h-full">
-                  <h3 className="text-gray-200 dark:text-gray-600">
+                  <h3 className="text-gray-600">
                     Guarenteed Maintainance
                   </h3>
                   <p className="text-[80px] text-right font-semibold">
@@ -296,11 +296,11 @@ export default function Home() {
               </div>
               <div className="bg-gray-800 rounded-3xl h-full">
                 <div className="p-8 flex flex-col justify-between gap-8 h-full">
-                  <h3 className="text-gray-200 dark:text-gray-600">
+                  <h3 className="text-gray-600">
                     Development Costs
                   </h3>
                   <p className="text-[80px] text-right font-semibold">
-                    75% <span className="text-2xl font-medium text-gray-300 dark:text-gray-600">Cost Savings</span>
+                    75% <span className="text-2xl font-medium text-gray-600">Cost Savings</span>
                   </p>
                   <p className="text-right text-gray-400">
                     Hiring a contract developer can be costly, but we will build your website for more than half the cost.
