@@ -23,7 +23,7 @@ const Features: React.FC<FeaturesProps> = ({ listItems, alignment, heading, subh
                 </div>
                 <ul className="flex flex-col gap-3">
                     {listItems.map((item, index) => (
-                        <li key={index} className="flex flex-row gap-3 items-center h-9 text-xl tracking-[-0.50px] text-gray-500">
+                        <li key={index} className="flex flex-row gap-3 items-center h-9 text-xl tracking-[-0.15px] text-gray-300">
                             <Image
                                 src="/images/star.svg"
                                 alt="star icon"
